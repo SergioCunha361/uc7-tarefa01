@@ -34,27 +34,3 @@ body {
   color: var(--cor-texto);
 }
 
-/* Estilos do link como botão */
-.btn-retornar {
-  display: inline-block;
-  background-color: #4CAF50; /* Cor de fundo verde */
-  color: white; /* Cor do texto */
-  padding: 10px 20px; /* Espaçamento interno */
-  font-size: 16px; /* Tamanho da fonte */
-  text-align: center; /* Alinha o texto no centro */
-  text-decoration: none; /* Remove o sublinhado do link */
-  border-radius: 5px; /* Cantos arredondados */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-  transition: background-color 0.3s, transform 0.2s; /* Transições suaves */
-}
-
-/* Efeito ao passar o mouse sobre o botão */
-.btn-retornar:hover {
-  background-color: #45a049; /* Cor de fundo ao passar o mouse */
-  transform: scale(1.05); /* Leve aumento no tamanho */
-}
-
-/* Efeito ao clicar no botão */
-.btn-retornar:active {
-  transform: scale(1); /* Reduz a escala quando pressionado */
-}

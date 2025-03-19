@@ -14,6 +14,10 @@ function Main() {
                             <section>
                                 <Link key={banda.id} to={`band/${banda.id}`}>
                                     <Band key={index} {...banda}/>
+                                    <p>Clique aqui para ler mais sobre ...</p>
+                                    {/* Link key={banda.id} --resposta da pesquisa
+                                    to={`band/${banda.id}`}== direcionamento após identificar o ID
+                                    Band key={index} {...banda} -- tranforma imagem + textos como objeto do link */}
                                 </Link>
                             </section>                    
                        
