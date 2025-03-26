@@ -1,0 +1,24 @@
+/* Estilos para o campo de entrada */
+.input {
+    margin-bottom: 15px; /* Espaçamento inferior */
+}
+
+.inputr label {
+    font-size: 14px; /* Tamanho da fonte do rótulo */
+    margin-bottom: 5px; /* Espaçamento inferior do rótulo */
+    display: block; /* Exibe o rótulo como bloco */
+}
+
+.input input {
+    width: 100%; /* Largura total do campo de entrada */
+    padding: 8px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border: 1px solid #ccc; /* Borda do campo */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Inclui o padding e a borda no tamanho total */
+}
+
+.input input:focus {
+    border-color: #4CAF50; /* Cor da borda ao focar */
+    outline: none; /* Remove a borda de foco padrão */
+}
